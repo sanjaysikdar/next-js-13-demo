@@ -8,7 +8,9 @@ export default function RootLayout({
 }) {
     return (
         <html>
-            <head />
+            <head>
+                <title>Next JS 13 Demo</title>
+            </head>
             <body>
                 <Header />
                 {children}
